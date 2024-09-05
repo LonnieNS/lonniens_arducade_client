@@ -1,0 +1,127 @@
+.dashboardContainer {
+    width: 50vw;
+    padding: 50px;
+    margin-inline:auto;
+
+    .dashboardHeader {
+        width: 80%;
+       
+        border-radius:15px;
+        border-style:solid;
+        border-color:#5645b8;
+        border-top-color:#9d52bf;
+        border-bottom-color:#72bdbc;
+        border-width: 15px;
+        margin-inline:auto;
+        background-image:url('bg.jpg');
+
+        .dashboardHeaderInnerBorder{
+            border-style:solid;
+            border-color:#9d52bf; 
+            border-top-color:#5645b8;
+            border-bottom-color:#5645b8;
+            border-width:15px;
+            padding: 10px;
+
+
+            .dashboardHeading {
+                font-size: 8rem;
+                text-align: center;
+                color:#edd5dc;
+                font-family: "press start 2p", sans-serif;
+                font-weight: 800;
+                letter-spacing:0px;
+                -webkit-text-stroke: 5px #f6e5ea;
+                text-shadow:
+                    0 0 0 #ee1fc9,
+                    -10px -10px 0 #ee1fc9,  
+                    0 0 0 #ee1fc9,
+                    -20px 1px 0 #ee1fc9,
+                    1px 1px 0 #ee1fc9;
+                }
+        }
+    }
+
+    .dashboardSpace {
+        clip-path: polygon(0 0, 100% 0, 97.5% 100%, 2.5% 100%);
+        background-color:#5645b8;
+        width: 79%;
+        height: 3vh;
+        margin-inline:auto;
+    }
+
+    .dashboardBody{
+        width:75%;
+        margin-inline:auto;
+        border-style:solid;
+        border-color:#5645b8;
+        border-top-color:#9d52bf; 
+        border-width: 15px;
+
+        .dashboardBodyInnerBorder{
+            border-style:solid;
+            border-color:#9d52bf; 
+            border-top-color:#5645b8;
+            border-width:15px;
+            height: 75vh;
+            padding: 20px;
+
+            .dashboardMonitor {
+                background-color:#352e7e;
+                width: 100%;
+                height: 100%;
+                border-radius:25px;
+                display: flex;
+            }
+        }
+    }
+
+    .dashboardControlsBorder{
+
+        background-color:#72bdbc;
+        clip-path: polygon(10% 0, 90% 0, 100% 100%, 0 100%);
+        width:94%;
+        height:41vh;
+        margin-inline:auto;
+        
+
+
+          .dashboardControls{
+        clip-path: polygon(10% 0, 90% 0, 100% 100%, 0 100%);
+        height: 40vh;
+        width:97.5%;
+        margin-inline:auto;
+        padding-top:10px;
+
+        .dashboardControlsInner{
+            clip-path: polygon(9.5% 0, 90.5% 0, 100% 100%, 0 100%);
+            width: 99%;
+            height: 98%;
+            margin-inline:auto;
+            background-color:#5645b8;
+
+            .dashboardControlsFlex{
+                width: 60%;
+                margin-inline:auto;
+                display:flex;
+                justify-content:space-between;
+                gap: 50px;
+            }
+        }
+    }
+    }
+
+    .dashboardBase{
+        width: 94%;
+        border-style:solid;
+        border-color:#9d52bf;
+        border-bottom-color:#5645b8;
+        background-color:#403195;
+        margin-inline:auto;
+        height: 15vh;
+        border-width: 10px;
+    }
+
+  
+}
+

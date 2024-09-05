@@ -1,0 +1,12 @@
+.container {
+    width: 100%;
+    height: 100%;
+    background-image:url('cyclonebg.jpg');
+    background-position:center;
+    background-size:cover;
+    text-align:center;
+}
+
+.monitorHeading {
+    color:#e03b5f;
+}
