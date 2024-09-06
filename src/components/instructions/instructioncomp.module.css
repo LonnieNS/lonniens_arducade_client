@@ -1,0 +1,132 @@
+.container {
+    padding: 50px;
+    display: flex;
+    justify-content:space-around;
+    gap:50px;
+
+    .simonSays{
+
+        width:100%;
+        
+
+        h1{
+            border-radius:15px;
+            border-style:solid;
+            border-color:#5645b8;
+            border-top-color:#9d52bf;
+            border-bottom-color:#72bdbc;
+            border-width: 15px;
+            margin-inline:auto;
+            background-image:url('bg.jpg');
+            padding: 40px;
+        }
+
+        .simonSaysImageDiv{
+            width: 100%;
+            padding: 10%;
+            
+            img{
+                width:100%;
+            }
+        }
+
+     
+    }
+
+    .simonInfo{
+
+        .infoRow{
+            display:flex;
+            justify-content: space-around;
+        }
+
+        .resistor{
+            background-color:beige;
+            width:120px;
+            display:flex;
+            justify-content:space-around;
+            height: 60px;
+
+            .bandOne{
+                background-color:red;
+                width:20px;
+                height: 60px;
+            }
+            .bandTwo{
+                background-color:red;
+                width:20px;
+                height: 60px;
+            }
+            .bandThree{
+                background-color:rgb(158, 99, 51);
+                width:20px;
+                height: 60px;
+            }
+            .bandFour{
+                background-color:gold;
+                width:10px;
+                height: 60px;
+            }
+        }
+    }
+
+  
+
+    .redLed{
+        background-color:red;
+        width:60px;
+        height:60px;
+        border-radius:50%;
+        padding-top:5px;
+    }
+
+    .greenLed{
+        background-color:green;
+        width:60px;
+        height:60px;
+        border-radius:50%;
+    }
+
+    .blueLed{
+        background-color:blue;
+        width:60px;
+        height:60px;
+        border-radius:50%;
+    }
+
+    .yellowLed{
+        background-color:yellow;
+        width:60px;
+        height:60px;
+        border-radius:50%;
+    }
+
+    .cyclone{
+        width:100%;
+
+
+        .cycloneImageDiv{
+            width: 100%;
+            padding: 10%;
+            
+            img{
+                width:100%;
+            }
+        }
+
+        h1{
+            border-radius:15px;
+            border-style:solid;
+            border-color:#e15a47;
+            border-top-color:#e1236a;
+            border-bottom-color:#e29348;
+            border-width: 15px;
+            margin-inline:auto;
+            background-image:url('cyclonebg.jpg');
+            background-position:center;
+            padding: 40px;
+        }
+
+    
+    }
+}

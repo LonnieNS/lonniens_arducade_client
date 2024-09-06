@@ -1,5 +1,5 @@
 .arcadeHeader {
-    width: 800px;
+    width:40vw;
    
     border-radius:15px;
     border-style:solid;
@@ -21,7 +21,7 @@
 
         .arcadeHeading {
             text-transform: uppercase;
-            font-size: 4.5rem;
+            font-size: 3.5rem;
             text-align: center;
             color:#edd5dc;
             font-family: "press start 2p", sans-serif;
@@ -43,13 +43,13 @@
 .arcadeSpace {
     clip-path: polygon(0 0, 100% 0, 97.5% 100%, 2.5% 100%);
     background-color:#5645b8;
-    width: 780px;
+    width: 40vw;
     height: 55px;
     margin-inline:auto;
 }
 
 .arcadeBody{
-    width:740px;
+    width:38vw;
     margin-inline:auto;
     border-style:solid;
     border-color:#5645b8;
@@ -61,7 +61,7 @@
         border-color:#9d52bf; 
         border-top-color:#5645b8;
         border-width:15px;
-        height: 400px;
+        height: 300px;
         padding: 20px;
 
         .arcadeMonitor {
@@ -78,7 +78,7 @@
 
     background-color:#72bdbc;
     clip-path: polygon(10% 0, 90% 0, 100% 100%, 0 100%);
-    width:920px;
+    width:47vw;
     height:300px;
     margin-inline:auto;
     
